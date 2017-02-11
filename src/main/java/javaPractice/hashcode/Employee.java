@@ -19,6 +19,7 @@ public class Employee {
                 Objects.equals(lastName, employee.lastName) &&
                 Objects.equals(department, employee.department);
     }
+
 //
 //    @Override
 //    public int hashCode() {
