@@ -47,11 +47,5 @@ public class GroupingByComplexExample {
 
         System.out.println(result1);
 
-        System.out.println("4) ========================group by price, uses 'mapping' to convert List<Item> to List<String>========================");
-        Map<BigDecimal, List<String>> result2 =
-                items.stream().collect(groupingBy(Item::getPrice, mapping(Item::getName, Collectors.toList())));
-
-        System.out.println(result2);
-
     }
 }
