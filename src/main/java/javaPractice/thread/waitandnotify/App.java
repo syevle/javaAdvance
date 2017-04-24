@@ -77,3 +77,16 @@ public class App {
         t2.join();
     }
 }
+/*
+        Producer thread running ....
+        Producer thread wait start ....
+        consume::Waiting for return key.
+
+        consume::Return key pressed.
+        consume::consume thread notify call.
+        consume::consume thread Thread.sleep(5000) start.
+        consume::consume thread Thread.sleep(5000) end.
+        consume::consume end.
+        Producer thread wait state over and Resumed for work
+        produce end.
+*/

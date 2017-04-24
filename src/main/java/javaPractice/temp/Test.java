@@ -1,13 +1,19 @@
 package javaPractice.temp;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Test {
     public static void main(String sa[]){
 
-        try{
-            System.out.println(Integer.parseInt(""));
-        }catch (NumberFormatException ex){
-            System.out.println("fails");
-        }
+        List<String> temp = new ArrayList<>();
+        temp.add("Santosh");
+        temp.add("Santosh");
+        temp.remove("nitin");
+        System.out.println(temp.size());
     }
+
+
+
 }

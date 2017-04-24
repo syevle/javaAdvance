@@ -50,3 +50,14 @@ public class PhaserExample
 			   }.start();
     }
 }
+
+/*
+Phasecount is 0
+Thread-0 arrived
+Thread-1 arrived
+Thread-2 arrived
+Thread-0 after passing barrier
+Thread-1 after passing barrier
+Thread-2 after passing barrier
+Phasecount is 1
+ */

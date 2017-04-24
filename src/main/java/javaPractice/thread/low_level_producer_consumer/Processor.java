@@ -12,7 +12,7 @@ public class Processor {
     private Object lock = new Object();
 
     public void produce() throws InterruptedException {
-        System.out.println("produce :: method invoke.");
+
         int value = 0;
 
         while (true) {
@@ -26,7 +26,7 @@ public class Processor {
                 }
                 value = value + 1;
                 list.add(value);
-                System.out.println("producer :: add value in List "+value+" List size is: " + list.size());
+                System.out.println("producer add value in List "+value+" List size is: " + list.size());
                 System.out.println("producer :: lock.notify() before");
                 lock.notify();
                 System.out.println("producer :: lock.notify() after");
@@ -36,7 +36,7 @@ public class Processor {
     }
 
     public void consume() throws InterruptedException {
-        System.out.println("consume :: method invoke.");
+
         Random random = new Random();
 
         while (true) {
@@ -51,7 +51,7 @@ public class Processor {
 
                 System.out.println("consume :: List size is: " + list.size());
                 int value = list.removeFirst();
-                System.out.println("consume :: Remove value is: " + value);
+                System.out.print("; value is: " + value);
                 System.out.println("consumer :: lock.notify() before");
                 lock.notify();
                 System.out.println("consumer :: lock.notify() after");

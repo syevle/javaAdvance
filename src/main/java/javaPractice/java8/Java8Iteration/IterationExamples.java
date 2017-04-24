@@ -26,3 +26,15 @@ public class IterationExamples {
         alphabets.forEach(l -> l.toUpperCase());
     }
 }
+
+
+/*
+A
+B
+B
+D
+A
+B
+B
+D
+ */

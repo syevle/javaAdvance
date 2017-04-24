@@ -106,3 +106,19 @@ public class App {
     }
 
 }
+/*
+firstThread :: lock.lock()
+firstThread :: Waiting .... cond.await() start
+secondThread :: lock.lock()
+secondThread :: Press the return key!
+
+secondThread :: Got return key!
+secondThread :: cond.signal() call
+secondThread :: increment done
+secondThread :: lock.unlock() call
+firstThread :: Woken up! cond.await() end
+firstThread :: increment done
+firstThread :: lock.unlock() call
+Count is: 20000
+
+ */

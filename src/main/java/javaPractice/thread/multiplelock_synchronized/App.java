@@ -153,3 +153,11 @@ public class App {
     }
 
 }
+
+/*
+Starting ...
+
+Time taken: 2553
+List1: 2000; List2: 2000
+
+*/

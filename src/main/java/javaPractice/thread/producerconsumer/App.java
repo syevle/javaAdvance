@@ -69,3 +69,45 @@ public class App {
         }
     }
 }
+
+/*
+Put value: 54; Queue size is: 1
+Put value: 71; Queue size is: 2
+Put value: 29; Queue size is: 3
+Put value: 8; Queue size is: 4
+Put value: 85; Queue size is: 5
+Put value: 87; Queue size is: 6
+Put value: 52; Queue size is: 7
+Put value: 66; Queue size is: 8
+Put value: 10; Queue size is: 9
+Put value: 3; Queue size is: 10
+Taken value: 54; Queue size is: 9
+Put value: 42; Queue size is: 10
+Taken value: 71; Queue size is: 9
+Put value: 3; Queue size is: 10
+Taken value: 29; Queue size is: 9
+Put value: 69; Queue size is: 10
+Taken value: 8; Queue size is: 10
+Put value: 0; Queue size is: 10
+Taken value: 85; Queue size is: 9
+Put value: 99; Queue size is: 10
+Taken value: 87; Queue size is: 9
+Put value: 1; Queue size is: 10
+Taken value: 52; Queue size is: 9
+Put value: 50; Queue size is: 10
+Taken value: 66; Queue size is: 9
+Put value: 44; Queue size is: 10
+Taken value: 10; Queue size is: 9
+Put value: 59; Queue size is: 10
+Put value: 0; Queue size is: 10
+Taken value: 3; Queue size is: 10
+Taken value: 42; Queue size is: 9
+Put value: 63; Queue size is: 10
+Taken value: 3; Queue size is: 9
+Put value: 21; Queue size is: 10
+Taken value: 69; Queue size is: 9
+Put value: 67; Queue size is: 10
+Taken value: 0; Queue size is: 9
+Put value: 49; Queue size is: 10
+Taken value: 99; Queue size is: 9
+ */

@@ -59,3 +59,9 @@ public class App {
     }
 
 }
+
+/*
+Starting ...
+Finished.
+Result is: 1707
+ */

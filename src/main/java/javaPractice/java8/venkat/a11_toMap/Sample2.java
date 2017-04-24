@@ -43,3 +43,9 @@ public class Sample2 {
 //      System.out.println(p);
     }
 }
+
+/*
+when duplicate object with same key try to add in map.
+{Sara-20=Sara -- FEMALE -- 20, Jill-12=Jill -- FEMALE -- 12, Paula-32=Paula -- FEMALE -- 32, Jack-2=Jack -- MALE -- 2, Jack-72=Jack -- MALE -- 72, Sara-22=Sara -- FEMALE -- 22, Paul-32=Paul -- MALE -- 32, Bob-20=Bob -- MALE -- 20}
+
+ */
