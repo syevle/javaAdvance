@@ -80,3 +80,8 @@ class Graph
     }
 }
 // This code is contributed by Aakash Hasija
+
+/*
+Following is Breadth First Traversal (starting from vertex 2)
+2 0 3 1
+ */
