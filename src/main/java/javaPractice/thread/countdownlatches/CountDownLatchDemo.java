@@ -62,3 +62,12 @@ class Service implements Runnable{
     }
 
 }
+
+/*
+OutPUt :
+AlertService is Up
+ValidationService is Up
+CacheService is Up
+All services are up, Application is starting now
+
+ */
